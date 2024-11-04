@@ -7,9 +7,9 @@ import time;
 
 parser = argparse.ArgumentParser("this script is used to perform ARP man in the middle attack")
 parser.add_argument("victimmac", type=str, help="the victims mac address (required positional argument)")
-parser.add_argument("gatewaymac", type=str, help="your mac address (required positional argument)")
+parser.add_argument("gatewaymac", type=str, help="gateways mac address (required positional argument)")
 parser.add_argument("victimip", type=str, help="the victims ip address (required positional argument)")
-parser.add_argument("gatewayip", type=str, help="your ip address (required positional argument)")
+parser.add_argument("gatewayip", type=str, help="gateways ip address (required positional argument)")
 parser.add_argument("interface", type=str, help="the interface name")
 # parser.add_argument("sleeptime", default=2, type=str, help="the time gap in seconds between two arp replys")
 
